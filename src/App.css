@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.Background
+{
+  width: 800px;
+  height: 460px;
+  background-color: red;
+  color: white;
+}
+
+.Design{
+  width: 300px;
+  height: 300px;
+  background-color: cadetblue;
+  color: rgb(255, 0, 21);
+  align-items: center;
+}
+
+.Cardsarr{
+  width: 700px;
+  min-height: 700px;
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,6 @@
+.Linef{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}

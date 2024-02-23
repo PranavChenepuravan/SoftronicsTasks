@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Navig } from './Navig';
+import { Card} from './Card'
+import App from './App';
+import { Counter } from './Counter';
+import { Datadict } from './Datadict';
+import { Dropdown } from './Dropdown';
+import Effect from './Effect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  {/* <App/> */}
+  {/* <Counter/> */}
+      {/* <Datadict/> */}
+  {/* <Dropdown/> */}
+   <Effect/>
   </React.StrictMode>
 );
 
